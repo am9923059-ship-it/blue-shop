@@ -21,7 +21,9 @@ app.use(session({
   cookie: { httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production", maxAge: 8 * 60 * 60 * 1000 }
 }));
 app.use(express.static(path.join(__dirname, "public")));
-
+app.get("/", (_req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 function readData() {
   try { return JSON.parse(fs.readFileSync(DATA_FILE, "utf8")); }
   catch { return { products: [], orders: [], nextProductId: 1, nextOrderId: 1 }; }
