@@ -1,0 +1,11 @@
+{
+  "products": [
+    {"id":1,"name":"USB Charger","category":"Electronics","price":850,"image":"https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80","description":"USB charging accessory","stock":20},
+    {"id":2,"name":"Notebook & Pens","category":"Stationery","price":250,"image":"https://images.unsplash.com/photo-1455390582262-044c ಅನ್ನು?auto=format&fit=crop&w=700&q=80","description":"Everyday stationery set","stock":50},
+    {"id":3,"name":"Measuring Tape","category":"Construction","price":400,"image":"https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=80","description":"Hand tool for measuring","stock":15},
+    {"id":4,"name":"Electrical Cable","category":"Electrical","price":1200,"image":"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=80","description":"Electrical supply item","stock":30}
+  ],
+  "orders": [],
+  "nextProductId": 5,
+  "nextOrderId": 1
+}
